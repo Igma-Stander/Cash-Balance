@@ -1,0 +1,27 @@
+.App {
+  text-align: center;
+  color: whitesmoke;
+}
+
+/* when I changed the background in .App the color stopped after the elements */
+* {
+  background-color: rgb(154, 54, 201);
+}
+
+/* changing background back */
+.input {
+  background-color: whitesmoke;
+}
+
+/* styling buttons */
+.button {
+  background-color: black;
+  color: whitesmoke;
+  border: solid black 4px;
+}
+
+.button:hover {
+  background-color: whitesmoke;
+  border: solid whitesmoke 4px;
+  color: rgb(150, 20, 208);
+}
